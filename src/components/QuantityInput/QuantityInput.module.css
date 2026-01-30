@@ -1,0 +1,24 @@
+.quantityInputContainer {
+  display: flex;
+}
+
+.subtractBtn {
+  margin: 0;
+  border-radius: 8px 0 0 8px;
+  padding: 4px;
+  width: 20px;
+  background-color: #4EFFEF;
+}
+
+.addBtn {
+  margin: 0;
+  border-radius: 0 8px 8px 0;
+  padding: 4px;
+  width: 20px;
+  background-color: #4EFFEF;
+}
+
+.quantityInput {
+  margin: 0;
+  width: 2rem;
+}
