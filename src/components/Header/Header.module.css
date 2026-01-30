@@ -1,0 +1,11 @@
+.siteHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 80vw;
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+}
