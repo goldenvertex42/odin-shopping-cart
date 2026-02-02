@@ -3,13 +3,11 @@ import styles from "./QuantityInput.module.css"
 export default function QuantityInput({ quantity, setQuantity }) {
   function handleSubtractClick() {
     const newValue = quantity - 1;
-    console.log(newValue);
     setQuantity(newValue);
   }
 
   function handleAddClick() {
     const newValue = quantity + 1;
-    console.log(newValue);
     setQuantity(newValue);
   }
 
