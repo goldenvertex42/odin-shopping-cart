@@ -11,7 +11,7 @@ export default function Header({itemsInCart}) {
       </div>
       <nav>
         <Link to="/shop">Shop</Link>
-        <Link to="/mycart">My Cart {itemsInCart}</Link>
+        <Link to="/mycart">My Cart {itemsInCart === 0 ? null : `(${itemsInCart})`}</Link>
       </nav>
     </header>
   );
