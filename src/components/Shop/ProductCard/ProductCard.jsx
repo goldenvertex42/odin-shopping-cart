@@ -8,7 +8,7 @@ export default function ProductCard({ product, handleAddToCart }) {
   
   return(
     <li className={styles.productCard}>
-      <p className={styles.productTitle}>{product.title}</p>
+      <h2 className={styles.productTitle}>{product.title}</h2>
       <img className={styles.productImage} src={product.image} alt={product.title} />
       <div className={styles.productInfo}>
         <p>${Number(product.price).toFixed(2)}</p>
