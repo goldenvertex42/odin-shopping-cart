@@ -14,7 +14,7 @@ export default function QuantityInput({ quantity, setQuantity }) {
   function validateNumber(e) {
     const inputValue = e.target.value;
     if (!isNaN(Number(inputValue))) {
-      setQuantity(inputValue);
+      setQuantity(Number(inputValue));
     } else {
       alert('Please enter a valid number');
       e.target.value = 1;

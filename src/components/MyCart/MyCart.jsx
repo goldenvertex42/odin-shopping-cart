@@ -33,7 +33,7 @@ export default function MyCart() {
     return(
       <div className={styles.priceBox}>
         <div className={styles.priceLabels}>
-          <p>Subtotal ({cartTotalQuantity} {cartTotalQuantity === 1 ? 'item' : 'items'}):</p>
+          <p>Subtotal ({Number(cartTotalQuantity)} {cartTotalQuantity === 1 ? 'item' : 'items'}):</p>
           <p>Estimated Tax (8%):</p>
           <p><span className={styles.bold}>Total:</span></p>
         </div>
