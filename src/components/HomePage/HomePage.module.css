@@ -1,0 +1,28 @@
+.main {
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.textContent {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.welcome {
+    font-size: 1.6em;
+}
+
+.fireplace {
+    position: relative;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: small;
+}
