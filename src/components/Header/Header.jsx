@@ -4,7 +4,7 @@ import styles from "./Header.module.css"
 export default function Header({itemsInCart}) {
   return(
     <header className={styles.siteHeader}>
-      <div className="storeName">
+      <div>
         <Link to="/">
         <h1>Brigid's General Store</h1>
         </Link>
