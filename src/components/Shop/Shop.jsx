@@ -23,7 +23,7 @@ export default function Shop() {
         const updatedItems = [...cartItems, {id: product.id, title: product.title, image: product.image, price: product.price, quantity: quantity}];
         setCartItems(updatedItems);
       }
-    }
+  }
   
   useEffect(() => {
     fetch('https://fakestoreapi.com/products')

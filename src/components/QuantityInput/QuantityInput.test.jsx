@@ -3,7 +3,7 @@ import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import QuantityInput from "./QuantityInput.jsx";
 
-describe("QualityInput component", () => {
+describe("QuantityInput component", () => {
     it("renders two buttons and a text input", () => {
         const mockQuantity = 1;
         const mockOnQuantityChange = vi.fn();

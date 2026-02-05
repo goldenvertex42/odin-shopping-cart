@@ -3,7 +3,7 @@ import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import ProductCard from "./ProductCard";
 
-describe('ProductCard component', () => {
+describe("ProductCard component", () => {
     it("renders product details", () => {
         const product = {
         title: 'Test Product',
@@ -24,7 +24,6 @@ describe('ProductCard component', () => {
         image: 'test-image.jpg',
         price: 19.99,
         };
-
         const handleAddToCart = vi.fn();
         const user = userEvent.setup();
 
@@ -41,7 +40,6 @@ describe('ProductCard component', () => {
         image: 'test-image.jpg',
         price: 19.99,
         };
-
         const handleAddToCart = vi.fn();
         const user = userEvent.setup();
 
@@ -61,7 +59,6 @@ describe('ProductCard component', () => {
         image: 'test-image.jpg',
         price: 19.99,
         };
-
         const handleAddToCart = vi.fn();
         const user = userEvent.setup();
 

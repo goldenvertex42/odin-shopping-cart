@@ -45,7 +45,7 @@ export default function MyCart() {
       </div>
     );
   }
-  // FIGURE OUT HOW TO UPDATE THE ITEMS IN CART WHEN QUANTITY UPDATES
+  
   if (cartItems.length === 0) return <h2>There's nothing in your cart yet! Add some items from the shop!</h2>
   
   return (
